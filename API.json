@@ -47,5 +47,6 @@
   "rconsolewarn": "function(...) rconsolewarn(...) end",
   "rconsoleerr": "function(...) rconsoleerr(...) end",
   "rconsolename": "function(name) rconsolename(name) end",
-  "rconsoleclear": "function() rconsoleclear() end"
+  "rconsoleclear": "function() rconsoleclear() end",
+  "runRemote": "function(url) local src = game:HttpGet(url) return loadstring(src)() end"
 }
